@@ -148,3 +148,169 @@
    <body>
 </body>
 </html>
+
+//css code 
+
+
+*{
+          margin: 0;
+          padding: 0; 
+            color: white;
+}
+
+    
+    html{
+          height: 100%;
+          width: 100%;
+    }
+header{
+          background-color: #131A22;
+          height: 60px;
+          width: 100%;
+          font-size: 20px;
+          display: flex;
+          align-items: center;
+          
+
+    } 
+#nav{
+    display: flex;
+    align-content: center;
+    position:space-evenly;
+    margin-top: 5px;
+    position: fixed;
+}
+
+#a1{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.ab{
+    margin-left: 20px;
+      
+}
+.ab:hover{
+   
+    border: 2px solid orange;
+}
+#a21{
+    display: flex;
+}
+#a3{
+    height: 50px;
+    width: 400px;
+    display: flex;
+}
+#categories{
+    border-radius: 5px 0px 0px 5px;
+
+}
+#a4{
+    font-size: 20px;
+}
+#a6{
+    display:flex;
+}
+.nav2{
+    height: 40px;
+    width: 100%;
+    background-color: #163252;
+    display:flex;
+    font-size: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+.nav21{
+    display:flex;
+    margin-right: 20px;
+}
+#l1{
+    margin-right: 30px;
+}
+#img1{
+    height: 600px;
+    width: 100%; 
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/events/June_MDD/Gateway/PChero/TD_2x2x2x._CB760467122_.jpg");
+    background-size: cover;
+}
+.Box1{
+    display: flex;
+    position:space-evenly;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+
+}
+.box{
+    height: 400px;
+    width: 350px;
+    border: black solid;
+    margin-left: 15px;
+   background-color: white;
+   
+}
+.box p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+margin-right: 20px;
+    font-size: 20px;
+   color: black;
+    font-weight: bold;
+}
+#img2{
+    height: 350px;
+    width: 350px; 
+    background-size: cover;
+}
+#img2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.Box2{
+    display: flex;
+   position:space-evenly;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.box1{
+    width: 350px;
+    height: 400px;
+    border: black solid;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+.box1 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+margin-right: 20px;
+    font-size: 20px;
+   color: black;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    background-color: #163252;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 150%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+    
+   
+}
+#foot1 p{
+    color: white;
+}
+
+
